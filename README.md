@@ -11,6 +11,7 @@ List of products that can be bought
   - BEM
   - Cross-browser semantic & responsive layouts
   - NPM  
+  - Form validation
  
 ## IDE
  Visual Studio Code
