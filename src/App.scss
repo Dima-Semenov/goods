@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+  position: relative;
+  padding: 100px 20px;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 400px) {
+  .App {
+    padding: 50px 20px;
+  }
+}

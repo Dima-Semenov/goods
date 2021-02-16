@@ -1,0 +1,55 @@
+@import './vars.scss';
+
+@mixin goodName {
+  margin-bottom: 40px;
+
+  text-align: left;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 48px;
+
+  letter-spacing: $negative-spacing;
+
+  &::first-letter {
+    text-transform: uppercase;
+  }
+}
+
+@mixin goodCategory {
+  margin-bottom: 8px;
+
+  text-align: left;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: $small-spacing;
+  text-transform: uppercase;
+
+  opacity: 0.5;
+}
+
+@mixin goodPrice {
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: $negative-spacing;
+}
+
+@mixin goodIcon {
+  display: inline-block;
+  margin-right: 4px;
+  margin-top: 13px;
+
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: $negative-spacing;
+  vertical-align: text-top;
+}
+
+@mixin withoutBorder {
+  border: none;
+  outline: none;
+}
+
+@mixin smallFont {
+  font-size: 16px;
+  line-height: 24px;
+}
