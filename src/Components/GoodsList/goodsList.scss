@@ -1,0 +1,38 @@
+@import '../../utils/mixins.scss';
+@import '../../utils/vars.scss';
+
+.goods {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+
+  &__button {
+    @include withoutBorder;
+
+    width: 235px;
+    height: 60px;
+    margin-top: 70px;
+
+    background: $main-color;
+    color: $wh-color;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: $negative-spacing;
+
+    border-radius: $small-radius;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .goods {
+    gap: 20px;
+
+    &__button {
+      width: 200px;
+      margin-top: 40px;
+    }
+  }
+}
