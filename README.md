@@ -2,7 +2,6 @@
 
 List of products that can be bought
 - [DEMO](https://dima-semenov.github.io/goods/)
-- [TASK](https://www.notion.so/ReactJS-60dc4d9cb92c446caa85f7602cd63288)
 
 ## Technologies & Methodologies
   - JavaScript
